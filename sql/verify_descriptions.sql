@@ -36,3 +36,5 @@ CREATE OR REPLACE TABLE catalog_table (
 
 
 CALL DESCRIBE_TABLES_SET_CATALOG('CORTEX_DB', 'CORTEX_SCM', 'catalog_table');
+
+select * from catalog_table;
