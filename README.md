@@ -1,5 +1,7 @@
 # Snowflake-AI-Auto-Generate-Table-Column-Descriptions
 Small but incredibly useful Snowflake feature—how to automatically set columns and table descriptions using AI. It uses the data from your columns, so the descriptions are actually meaningful. It’s simple—but usually super time-consuming
+
+
 **1. Clone and Setup**
 git clone https://github.com/snow2ocean/Snowflake-AI-Auto-Generate-Table-Column-Descriptions.git
 cd Snowflake-AI-Auto-Generate-Table-Column-Descriptions
@@ -19,4 +21,4 @@ SQL Scripts
 All SQL scripts are referenced in the quickstart guide:
 
 1.Snowflake_Setup.sql - Create role, database, warehouse, procedures
-2.verify_descriptions.sql - Verify data ingestion and check record counts
+2.verify_descriptions.sql - Verify table and Column Descriptions
